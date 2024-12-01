@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:8080/employees"; // Adjust backend URL
+const apiUrl = "http://localhost:8080/employees"; 
 
 // Fetch all employees (GET)
 function fetchEmployees() {
@@ -6,7 +6,7 @@ function fetchEmployees() {
         .then(response => {
             const employees = response.data;
             const tableBody = document.querySelector("#employeeTable tbody");
-            tableBody.innerHTML = ""; // Clear existing rows
+            tableBody.innerHTML = ""; 
             employees.forEach(employee => {
                 const row = document.createElement("tr");
                 row.innerHTML = `
@@ -118,5 +118,5 @@ function createEmployee(e) {
 window.onload = function () {
     fetchEmployees();
     const form = document.getElementById("employeeForm");
-    form.onsubmit = createEmployee; // Ensure form is initially set to create a new employee
+    form.onsubmit = createEmployee; 
 };
