@@ -1,0 +1,29 @@
+# Employee Management System
+
+## Project Overview
+The Employee Management System is a web application that allows users to manage employees. It supports operations like adding, editing, deleting, and viewing employee details. This project consists of a **backend** built with Spring Boot (Java) and a **frontend** built with HTML, CSS, and JavaScript using Axios to interact with the backend API.
+
+---
+
+## Features
+- **Add Employee**: Allows users to add new employees by entering details such as name, email, phone, and department.
+- **View Employees**: Displays a list of all employees with their details.
+- **Edit Employee**: Users can edit the information of an existing employee.
+- **Delete Employee**: Allows the removal of employees from the system.
+- **Responsive UI**: The application is designed to be mobile-friendly and responsive.
+
+---
+
+## Backend Setup (Spring Boot)
+
+### Prerequisites
+- JDK 11 or later
+- Maven (or Gradle)
+- IDE (e.g., IntelliJ IDEA, Eclipse)
+
+
+
+## FrontEnd Setup
+npm install
+npx http-server . -p 9090
+
